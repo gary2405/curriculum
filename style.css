@@ -1,0 +1,51 @@
+header{
+    text-align: center;
+}
+
+.nombretitulo{
+    letter-spacing: 9px;
+}
+
+.job {
+    font-weight: 500;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 0 -0rem;
+    font-size: 20px;
+     
+}
+
+.lineajob {
+    width: 15%;
+    display: inline-block;
+    border: 1px solid black;
+    
+}
+
+.iconospos{
+    font-size: small;
+    display: grid;
+    grid-template-columns: 120px 180px 120px;
+    margin-left: 7%;
+}
+
+.borde{
+    border-width: thin;
+    border-style: inset;
+    border-color: #000;
+    width: 480px;
+    margin: 0 auto;
+    background-color: rgb(245, 245, 242);
+    
+    
+}
+
+h5{
+    margin-left: 5%;
+}
+
+.imgcircles{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
