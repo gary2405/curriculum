@@ -20,6 +20,7 @@ header{
     width: 15%;
     display: inline-block;
     border: 1px solid black;
+    filter: invert(60%);
     
 }
 
@@ -30,13 +31,24 @@ header{
     margin-left: 7%;
 }
 
+.circulostexto{
+    display: grid;
+    grid-template-columns: 85px 85px 90px 85px 120px;
+    
+    
+}
 #borde{
     border-width: thin;
     border-style: inset;
-    border-color: #000;
+    border-color: #000000;
     width: 480px;
     margin: 0 auto;
-    background-color: white;
+    
+
+}
+
+#borde2{
+    padding: 25px;
     
 }
 
@@ -81,6 +93,7 @@ h5{
   position:  absolute;
   margin-top: -23%;
   margin-left: 25%;
+  filter: opacity(70%);
  }
 
  .segundalista{
@@ -110,26 +123,19 @@ h5{
 
  .column3{
   position: absolute;
-  right: 40%;
-  top: 108%;
+  right: 41%;
+  top: 111%;
+  
  }
 
  .linea{
- border-left: 1px solid #000000;
+ border-left: 1px solid black;
  height: 25%;
  left: 50%;
  position: absolute;
  margin-top: -145px;
  }
-
- :root {
-    --light-0: #f8f9fa;
-    --light-1: #e9ecef;
-    --light-2: #dee2e6;
-    --dark-0: #495057;
-    --dark-1: #343a40;
-    --dark-2: #212529;
-  }
+ 
 
   body {
     background: var(--light-0);
@@ -150,6 +156,7 @@ h5{
   .button{
    border-radius: 10px;
    border-color: transparent;
-   background-color: rgb(234, 232, 232);
+   background-color: transparent;
+   
   }
   
